@@ -4,10 +4,10 @@ BIN=$MODDIR/system/bin
 export LD_LIBRARY_PATH=$BIN
 LOG=$MODDIR/proxy.log
 
-# -- KONFIGURASI AKUN --
-SERVER_IP="202.10.48.173"
-PASS="asd63"
-OBFS='hu``hqb`c'
+# -- Masukkin akunnya disini --
+SERVER_IP=""
+PASS=""
+OBFS='hu``hqb`c'# INI JANGAN DIOTAK-ATIK
 # ----------------------
 
 echo "[$(date)] Starting ZIVPN Core (Self-Contained)..." > $LOG
